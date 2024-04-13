@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+        integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link href="./style.css" rel="stylesheet">
+    <style>
+        body {
+            background: #f0f8ff;
+        }
+
+        .text-custom {
+            color: #0062ff;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .work-desk {
+            transition: transform 0.3s ease;
+        }
+
+        .work-desk:hover {
+            transform: scale(1.05); /* Increase the scale to bring the image forward */
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Researchy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./signup.html">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./search.php">Search</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-6 order-2 order-md-1 mt-4 pt-2 mt-sm-0 opt-sm-0">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                    <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                        <img src="./1.jpg" class="img-fluid" alt="Image" />
+                                        <div class="img-overlay bg-dark"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-6">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12">
+                                    <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                        <img src="./2abt.jpg" class="img-fluid" alt="Image" />
+                                        <div class="img-overlay bg-dark"></div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 mt-4 pt-2">
+                                    <div class="card work-desk rounded border-0 shadow-lg overflow-hidden">
+                                        <img src="./3abt.jpg" class="img-fluid" alt="Image" />
+                                        <div class="img-overlay bg-dark"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12 order-1 order-md-2">
+                    <div class="section-title ml-lg-5">
+                        <h5 class="text-custom font-weight-normal mb-3">About Us</h5>
+                        <h4 class="title mb-4">
+                            Our mission is to <br />
+                            make your life easier.
+                        </h4>
+                        <p class="text-muted mb-0">"Uncover our research website's purpose, team, and dedication to exploring new frontiers. Discover our mission to advance knowledge and innovation in specific field."</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+</body>
+
+</html>

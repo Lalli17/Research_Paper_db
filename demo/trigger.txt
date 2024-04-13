@@ -1,0 +1,15 @@
+DELIMITER //
+
+CREATE PROCEDURE insert_paper(
+    IN pid INT,
+    IN project_name VARCHAR(255),
+    IN project_year INT,
+    IN author_name VARCHAR(255),
+    IN link VARCHAR(255)
+)
+BEGIN
+    -- Insert data into the paper table
+    INSERT INTO paper (p_id, p_name, p_year, author_name, p_link) VALUES (pid, project_name, project_year, author_name, link);
+END //
+
+DELIMITER ;
